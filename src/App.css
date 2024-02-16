@@ -23,16 +23,66 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar {
+  margin-bottom: 20px;
 }
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.book-cover {
+  width: 100px;
+  height: 150px;
+}
+
+.read-button {
+  background-color: green;
+  color: white;
+}
+
+.unread-button {
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+}
+
+.book-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.navbar{
+  background-color:#f5eded;
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #a4afb9;
+ }
+ .nav-links{
+  display: flex;
+  justify-self: center
+ }
+ .nav-links li{
+  margin: 0rem 1rem;
+  list-style: none;
+ }
+ .logo{
+  color: rgb(13, 64, 202);
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+ }
